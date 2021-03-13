@@ -11,6 +11,6 @@ This application can be used to play mp3 songs. The key features in this are as 
 These features are implemented with the help of :-
 1. Navigation Drawer
 2. Fragments
-3. Viewpager
-4. SQLite Database
+3. Viewpage
+4. Design Modules
 5. Adapters.
