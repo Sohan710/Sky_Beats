@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.os.Handler;
@@ -121,7 +122,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mDrawerLayout.closeDrawers();
                 switch (item.getItemId()) {
                     case R.id.nav_about:
-                        about();
+                        about(item
+                        );
                         break;
                 }
                 return true;
@@ -228,18 +230,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * Function to show the dialog for about us.
      */
-    private void about() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(getString(R.string.about))
-                .setMessage(getString(R.string.about_text))
-                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
-                });
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();
+    private void about(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.nav_about) {
+            startActivity(new Intent(getApplicationContext(), About_us.class));
+        }
     }
 
     @Override
