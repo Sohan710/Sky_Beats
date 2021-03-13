@@ -14,3 +14,9 @@ These features are implemented with the help of :-
 3. Viewpage
 4. Design Modules
 5. Adapters.
+
+![1](https://user-images.githubusercontent.com/66657628/111024272-de0b8f80-8403-11eb-9b9b-6751c3d986fa.jpeg)
+![2](https://user-images.githubusercontent.com/66657628/111024270-db109f00-8403-11eb-80c3-fec6ab8d8141.jpeg)
+![3](https://user-images.githubusercontent.com/66657628/111024275-e4017080-8403-11eb-9bd1-80f7b3f73658.jpeg)
+![4](https://user-images.githubusercontent.com/66657628/111024276-e4017080-8403-11eb-90d4-928ae30e91b5.jpeg)
+![5](https://user-images.githubusercontent.com/66657628/111024274-e2d04380-8403-11eb-97ef-980b2c90a424.jpeg)
